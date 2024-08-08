@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap-icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ 
+    <!-- style -->
+    <style>
+      /* navbar */
+   #nav-top{
+    background-color: rgb(32, 32, 157) !important;
+   }
+   #nav-top-title{
+    color: white;
+    font-weight: 600;
+    position: relative;
+    left: 45px;
+   }
+   #nav-top-links li a{
+     color: white;
+     position:relative;
+     left: 60px;
+     padding-left: 20px;
+   }
+   #nav-top-data p{
+     color: white;
+     /* padding-top: 10px; */
+     position: relative;
+     top: 9px;
+     right: 100px;
+   }
+   #nav-top-btn{
+    position: relative;
+    right: 80px;
+    color:white;
+    background-color: rgb(35, 208, 243);
+    border: 0px;
+    font-weight: 200;
+    
+
+   }
+   #nav-top-btn:hover{
+    background-color: rgb(32, 32, 157);
+    /* transition: 1s; */
+    border: 1px solid rgb(35, 208, 243);
+    color: blue;
+
+   }
+   /* search */
+  #search{
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  #search-btn{
+    border: 0px;
+    position: relative;
+    left: 205px;
+    border: 1px solid black;
+    padding-bottom: 2px;
+    border-radius: 4.5px;
+    background-color: rgb(226, 225, 225);
+  }
+  #search-box{
+    border-radius: 2px;
+    border: 1px solid black;
+    font-weight: 100;
+    font-size: medium;
+    background-color: rgb(226, 225, 225);
+    position: relative;
+    left: 200px;
+  }
+  #search-1{
+    position: relative;
+    
+  }
+  #search-item1{
+    position: relative;
+    left: 200px;
+    font-weight: 100;
+    padding: 2px;
+    background-color: rgb(226, 225, 225);
+  }
+  #search-item2{
+    position: relative;
+    left: 200px;
+    font-weight: 100;
+    padding: 2px;
+    background-color: rgb(226, 225, 225);
+  }
+  #search-item3{
+    position: relative;
+    left: 200px;
+    font-weight: 100;
+    padding: 2px;
+    background-color: rgb(226, 225, 225);
+  }
+  #search-btn2{
+    position: relative;
+    left: 200px;
+   border: 0px;
+   background-color: rgb(32, 32, 157);
+   color: white;
+   padding: 2px;
+   padding-left: 1px;
+   padding-right: 1px;
+   border-radius: 3px;
+   border: 1px solid rgb(32, 32, 157);
+  }
+  /* main section */
+  #main {
+    padding-top: 70px;
+    background-color: rgb(232, 229, 229);
+  }
+  #main1 h2{
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  #main1 h4{
+    font-weight: 600;
+  }
+  #main1-btn{
+    color: white;
+    margin-top:20px;
+    background-color:rgb(35, 208, 243) ;
+    border: 0px;
+    border-radius: 2px;
+    padding: 2px;
+    font-weight: 400;
+  }
+  #main2-img{
+    margin-bottom: 30px;
+  }
+  /* properties */
+  #properties{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  #properties1 p{
+     font-weight: 300;
+  }
+  /* cards */
+  #cards{
+    margin-bottom: 15px;
+  }
+  #card1{
+    padding-top: 25px;
+    border: 1px solid rgb(172, 169, 169);
+    padding-left: 8px;
+    border-top: 0px;
+  }
+
+  #card1 h5{
+    color: rgb(22, 205, 242) ;
+  }
+  #card1 p{
+    font-weight: 300;
+  }
+ 
+  #card2{
+    padding-top: 25px;
+    border: 1px solid rgb(172, 169, 169);
+    padding-left: 8px;
+    border-top: 0px;
+  }
+  #card2 h5{
+    color: rgb(22, 205, 242) ;
+  }
+  #card2 p{
+    font-weight: 300;
+  }
+  #card3{
+    padding-top: 25px;
+    border: 1px solid rgb(172, 169, 169);
+    padding-left: 8px;
+    border-top: 0px;
+  }
+  #card3 h5{
+    color: rgb(22, 205, 242) ;
+  }
+  #card3 p{
+    font-weight: 300;
+  }
+  .card1-icon{
+    border: 1px solid gray;
+    border-top: 0px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+   
+  }
+  .icon {
+    font-size: small;
+    color: aqua;
+    
+
+  }
+  #icon1{
+    position: relative;
+    left:20px
+  }
+  #icon2{
+    position: relative;
+    left: 95px;
+  }
+  #icon3{
+    position: relative;
+    left:160px;
+  }
+  /* people help */
+  #people-help{
+    background: url(https://img.freepik.com/premium-photo/interior-conference-meeting-room-moder-office_308547-9403.jpg?size=626&ext=jpg&ga=GA1.1.180014078.1694173331&semt=ais) ;
+        background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       
+
+  }
+  #people-help1{
+    color: rgb(255, 255, 255);
+    padding-top: 70px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+  }
+  #people-help1 h2{
+    font-weight: bolder;
+    text-shadow: -3px 2px rgb(14, 14, 15);
+
+  }
+  #people-help2{
+    /* border: 2px solid black; */
+    height: 180px;
+    width: 230px;
+    margin-top: 20px;
+    background-color:  rgb(99, 216, 239) ;
+    margin-bottom: 50px;
+    position: relative;
+    left: 160px;
+  }
+  #people-help3{
+    /* border: 2px solid black; */
+    height: 180px;
+    width: 230px;
+    margin-top: 20px;
+    background-color:  rgb(99, 216, 239) ;
+    margin-bottom: 50px;
+    position: relative;
+    left: 160px;
+    /* box-shadow: 2px 2px 5px red; */
+    border: 1px solid rgb(176, 175, 175);
+    border-top: 0px;
+    border-bottom: 0px;
+
+  }
+  #people-help4{
+    /* border: 2px solid black; */
+    height: 180px;
+    width: 230px;
+    margin-top: 20px;
+    background-color:  rgb(99, 216, 239) ;
+    margin-bottom: 50px;
+    position: relative;
+    left: 160px;
+  }
+  #people-help2 h1{
+
+
+    position: relative;
+    left: 70px;
+  }
+  #people-help2 h3 {
+    color: white;
+    font-weight: 700;
+    font-size: medium;
+    padding-left: 23px;
+  }
+  #people-help2 p{
+    color: white;
+    padding-left: 20px;
+    
+    font-weight: 300;
+  }
+
+  #people-help3 h1{
+
+
+position: relative;
+left: 70px;
+}
+#people-help3 h3 {
+color: white;
+font-weight: 700;
+font-size: medium;
+padding-left: 23px;
+}
+#people-help3 p{
+color: white;
+padding-left: 20px;
+
+font-weight: 300;
+}
+
+#people-help4 h1{
+
+
+position: relative;
+left: 70px;
+}
+#people-help4 h3 {
+color: white;
+font-weight: 700;
+font-size: medium;
+padding-left: 50px;
+}
+#people-help4 p{
+color: white;
+padding-left: 20px;
+
+font-weight: 300;
+}
+/* Agents */
+#agent{
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+#agent1 p{
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+#agent2 h5{
+  font-size: small;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-left: 50px;
+
+}
+#agent2 p{
+  font-weight: 300;
+  padding-top: 0px;
+  font-size: smaller;
+  padding-left: 38px;
+
+}
+
+#agent h5{
+  font-size: small;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-left: 50px;
+
+}
+#agent3 p{
+  font-weight: 300;
+  padding-top: 0px;
+  font-size: smaller;
+  padding-left: 38px;
+
+}
+
+#agent4 h5{
+  font-size: small;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-left: 50px;
+
+}
+#agent4 p{
+  font-weight: 300;
+  padding-top: 0px;
+  font-size: smaller;
+  padding-left: 38px;
+
+}
+
+#agent5 h5{
+  font-size: small;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-left: 50px;
+
+}
+#agent5 p{
+  font-weight: 300;
+  padding-top: 0px;
+  font-size: smaller;
+  padding-left: 38px;
+
+}
+#agent2 h5:hover{
+ color: aqua;
+  
+
+  
+}
+#agent2-icon{
+  padding-left: 50px;
+  background-color: rgb(182, 175, 175);
+  position: relative;
+  top: -30px;
+  /* display: none; */
+
+}
+#news{
+  margin-bottom: 20px;
+  background-color: rgb(32, 32, 157) ;
+}
+#news1 {
+   background-color: rgb(32, 32, 157) ;
+   padding-left: 7px;
+}
+#news1 h2{
+  color: white;
+  padding-top: 40px;
+  padding-left: 25px;
+}
+#news1 p{
+  color: white;
+ 
+  padding-left: 25px;
+}
+#textbox{
+  color: white;
+  /* padding-top: 40px; */
+  position: relative;
+  left: 25px;
+  top: 20px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid white;
+  background-color: rgb(32, 32, 157) ;
+  
+
+}
+
+#news1 button{
+  position: relative;
+  top: 30px;
+  left: 25px;
+  background-color: rgb(10, 200, 238) ;
+  color: white;
+  border: 0px;
+  border-radius: 3px ;
+  
+ 
+}
+#news2 img{
+  position: relative;
+  left: 12px;
+}
+  
+  </style>
+
+<title>Konato</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-top">
+      <a class="navbar-brand" href="#" id="nav-top-title"> <i class="bi bi-geo-alt"></i> Konato</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav-top-links">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Property</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+              
+              
+              
+            </ul>
+            <form class="d-flex" id="nav-top-data">
+              <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+              <div >
+                <p>Call Us: +10(78)3563276 </p>
+              </div>
+              <button class="btn btn-outline-success" type="submit" id="nav-top-btn">Sign in</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- search -->
+      <div class="container-fluid">
+
+        <div class="row " id="search">
+          <div class="col-md-12 " id="search-1">
+           <Button id="search-btn"><i class="bi bi-search"></i></Button>
+           <input type="text" name="" id="search-box" placeholder="Enter keyword">
+           <label for="cars1"></label>
+
+              <select name="cars" id="search-item1">
+                <option value="volvo">Rent</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select>
+
+              <label for="cars"></label>
+
+              <select name="cars" id="search-item2">
+                <option value="volvo">Bed</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select>
+
+              <label for="cars"></label>
+
+              <select name="cars" id="search-item3">
+                <option value="volvo">Bath</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select>
+
+              <Button type="button" id="search-btn2"> Search </Button>
+           
+          </div>
+        </div>
+        <!-- main section -->
+        <div class="row  justify-content-evenly" id="main">
+          <div class="col-md-5 " id="main1" >
+            <h6>3 Bed-2 Bath-2200ft</h6>
+            <h2>Light House NY</h2>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id et, consectetur expedita tenetur nam neque eligendi</p>
+            <h4>$ 3,425</h4>
+            <Button  type="button" id="main1-btn">View property</Button>
+
+          </div>
+          <div class="col-md-5" id="main2">
+            <img src="https://img.freepik.com/free-photo/modern-residential-district-with-green-roof-balcony-generated-by-ai_188544-10276.jpg?size=626&ext=jpg&ga=GA1.1.180014078.1694173331&semt=ais" alt="" class="img-fluid" id="main2-img">
+          </div>
+        </div>
+         <!-- properties -->
+         <div class="row " id="properties">
+          <div class="col-md-12 text-center  " id="properties1">
+            <h2>Display Latest & Featured Properties</h2>
+            <p>Get started by choosing from one of our pre-built page <br> templates to showcase your properties</p>
+          </div>
+         </div>
+         <!-- cards -->
+         <div class="row justify-content-center"  id="cards" >
+          <div class="col-md-3" >
+            <img src="https://img.freepik.com/free-photo/3d-electric-car-building_23-2148972401.jpg?size=626&ext=jpg&ga=GA1.1.180014078.1694173331&semt=sph" alt="" class="img-fluid">
+            <div id="card1">
+              <h5>$ 3,455</h5>
+              <h6>Appartment</h6>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, doloribus?</p>
+            </div>
+            <div class="card1-icon">
+              <i class="bi bi-bag-check-fill  " id="icon1">
+             
+              </i>
+              
+              <i class="bi bi-buildings "id="icon2" >
+              
+              </i>
+              <i class="bi bi-shield-lock-fill " id="icon3">
+             
+              </i>
+
+            </div>
+
+          </div>
+          <div class="col-md-3" id="card2-main">
+            <img src="https://img.freepik.com/free-photo/night-architecture-outdoors-dusk-building-exterior-tree-grass-illuminated-generative-ai_188544-7729.jpg?size=626&ext=jpg&ga=GA1.1.180014078.1694173331&semt=sph" alt="" class="img-fluid">
+            <div id="card2">
+              <h5>$ 3,455</h5>
+              <h6>Appartment</h6>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, doloribus?</p>
+            </div>
+            <div class="card1-icon">
+              <i class="bi bi-bag-check-fill  " id="icon1">
+             
+              </i>
+              
+              <i class="bi bi-buildings "id="icon2" >
+              
+              </i>
+              <i class="bi bi-shield-lock-fill " id="icon3">
+             
+              </i>
+
+            </div>
+
+          </div>
+          <div class="col-md-3" >
+            <img src="https://img.freepik.com/premium-photo/luxury-interior-exterior-design-pool-villa-with-livingroom_41487-70.jpg?size=626&ext=jpg&ga=GA1.1.180014078.1694173331&semt=sph" alt="" class="img-fluid" style="height: 139px; width: 300px;">
+            <div id="card3">
+              <h5>$ 3,455</h5>
+              <h6>Appartment</h6>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, doloribus?</p>
+            </div>
+            <div class="card1-icon">
+              <i class="bi bi-bag-check-fill  " id="icon1">
+             
+              </i>
+              
+              <i class="bi bi-buildings "id="icon2" >
+              
+              </i>
+              <i class="bi bi-shield-lock-fill " id="icon3">
+             
+              </i>
+
+            </div>
+
+          </div>
+         </div>
+         <!-- people help -->
+         <div class="row" id="people-help">
+          <div class="col-md-12 text-center" id="people-help1">
+            <h2>How we help people?</h2>
+
+          </div>
+          <div class="col-md-3" id="people-help2">
+            <h1><i class="bi bi-buildings text-white"></i></h1>
+            <h3 > Sell home or office</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing </p>
+          
+
+          </div>
+          <div class="col-md-3" id="people-help3">
+            <h1><i class="bi bi-house-door text-white"></i></h1>
+            <h3> Rent home or office</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing </p>
+            
+
+          </div>
+          <div class="col-md-3" id="people-help4">
+            <h1><i class="bi bi-door-open text-white  "></i></h1>
+            <h3>Find next</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing</p>
+
+          </div>
+         </div>
+         <!-- OUR agent -->
+         <div class="row  justify-content-center" id="agent">
+          <div class="col-md-12 text-center" id="agent1">
+            <h2>Our Agents</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="col-md-2" id="agent2">
+            
+              <img src="https://preview.colorlib.com/theme/konato/assets/img/gallery/team2.jpg" alt="" class="img-fluid">
+              
+              <h5>Grahm hil</h5>
+              <p>Real state Agent</p>
+          </div>
+          <div class="col-md-2" id="agent3">
+            <img src="https://preview.colorlib.com/theme/konato/assets/img/gallery/team1.jpg" alt="" class="img-fluid">
+            <h5>Grahm hil</h5>
+              <p>Real state Agent</p>
+          </div>
+          <div class="col-md-2" id="agent4">
+            <img src="https://preview.colorlib.com/theme/konato/assets/img/gallery/team4.jpg" alt="" class="img-fluid">
+            <h5>Grahm hil</h5>
+              <p>Real state Agent</p>
+          </div>
+          <div class="col-md-2" id="agent5">
+            <img src="https://preview.colorlib.com/theme/konato/assets/img/gallery/team3.jpg" alt="" class="img-fluid">
+            <h5>Grahm hil</h5>
+              <p>Real state Agent</p>
+          </div>
+
+         </div>
+         <!-- Newsletter -->
+       <div class="row justify-content-center " id="news">
+        <div class="col-md-6" id="news1">
+          <h2>Subscribe Newsletter</h2>
+           <p>Get started by choosing from one of our pre-built page templates to showcase your properties</p>
+           <input type="text" name="" id="textbox" placeholder="Your Email" class="text-white"> <br>
+           <Button>Subscribe</Button>
+        </div>
+        <div class="col-md-6" id="news2">
+          <img src="https://fivmagazine.com/wp-content/uploads/2020/09/kris-jenner-house-villa-los-angeles-haus-luxus-luxury-scaled.jpg" alt="" class="img-fluid" >
+
+        </div>
+       </div>
+        
+        
+         <!-- end of container-fluid -->
+      </div>
+  
+
+    
+  
+
+ 
+
+      
+      
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
+    
+</body>
+</html>

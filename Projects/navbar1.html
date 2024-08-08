@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+          
+
+        }
+        .main{
+            width: 1000px;
+            height: 70px;
+            background-color:gray;
+
+        }
+        .logo{
+            width: 150px;
+            height: 70px;
+            /* background-color: rgb(126, 84, 84); */
+            float: left;
+
+        }
+        .logo p{
+            padding-top: 20px;
+            font-size: larger;
+            font-weight: bold;
+            padding-left: 10px;
+            color: white;
+
+        }
+        .logo p:hover{
+            color: #0d3e50;
+        }
+        .items{
+            width: 750px;
+            height: 70px;
+            /* background-color: blue; */
+            /* padding-top: 10px; */
+        
+        
+        }
+        .items1{
+            width: 150px;
+            height: 70px;
+            /* background-color: rgb(63, 54, 71); */
+            float: left;
+            text-align: center;
+            cursor: pointer;
+            font-size: larger;
+            font-weight: bold;
+            color: white;
+            
+            
+            
+        }
+        .items2{
+            width: 150px;
+            height: 70px;
+            /* background-color: rgb(226, 43, 98); */
+            float: left;
+            text-align: center;
+            cursor: pointer;
+            font-size: larger;
+            font-weight: bold;
+            color: white;
+        }
+        .items3{
+            width: 150px;
+            height: 70px;
+            /* background-color: rgb(43, 226, 76); */
+            float: left;
+            text-align: center;
+            cursor: pointer;
+            font-size: larger;
+            font-weight: bold;
+            color: white;
+        }
+        .items4{
+            width: 150px;
+            height: 70px;
+            /* background-color: rgb(43, 162, 226); */
+            float: left;
+            text-align: center;
+            color: white;
+            cursor: pointer;
+            font-size: larger;
+            font-weight: bold;
+        }
+        .items1:hover{
+            color:#0d3e50;
+            font-weight: bolder;
+        
+        }
+        .items2:hover{
+            color: #0d3e50;
+            font-weight: bolder;
+        
+        }
+        .items3:hover{
+            color: #0d3e50;
+            font-weight: bolder;
+        
+        }
+        .items4:hover{
+            color: #0d3e50;
+            font-weight: bolder;
+        
+        }
+        .main2{
+            width: 1000px;
+            height: 400px;
+            /* background-color: brown; */
+            display: flex;
+            color: white;
+        }
+        .main2-col1{
+            width: 500px;
+            height: 400px;
+            /* background-color: blue; */
+            text-align: center;
+            font-style: oblique;
+            background-color: #0f3c4c;
+            
+            
+        }
+        .main2-col1 form{
+            /* border: 2px solid black; */
+            border-radius: 100px;
+        }
+        .main2-col1 form #btn1{
+            border-radius: 7px ;
+            /* padding: 2px ; */
+            font-size: medium;
+        }
+        .main2-col1 form #btn1:hover{
+            color:#0d3e50;
+            background-color:rgb(232, 215, 215)
+        }
+        .main2-col2{
+            width: 500px;
+            height: 400px;
+            /* background-color: rgb(70, 70, 113); */
+            border-radius: 2px;
+            background-size: cover;
+            background-attachment: fixed;
+            
+        }
+        .footer{
+            width: 1000px;
+            height: 50px;
+            background-color:gray;
+            color: white;
+            text-align: center;
+            padding-top: 10px;
+            font-size: medium;
+            /* font-family: Georgia, 'Times New Roman', Times, serif; */
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .footer h3:hover{
+             color: #0f3c4c;
+        }
+       
+       
+        
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="logo">
+            <p>EARTHCON!</p>
+        </div>
+        <div class="items">
+            <div class="items1">Home</div>
+            <div class="items2">About us </div>
+            <div class="items3"> Contact us </div>
+            <div class="items4"> Email us </div>
+
+        </div>
+      
+
+    </div>
+    <div class="main2">
+        <div class="main2-col1">
+            <form action="" id="form1">
+                Name: <input type="text" placeholder="Enter your name "> <br>
+                <br>
+                Age :<input type="number" placeholder=" Enter  your age ">
+                <br>
+                <br>
+                Phone no: <input type="number" placeholder=" Enter your contact no ">
+                <br>
+                <br>
+                Email: <input type="text" placeholder="Enter your Email ">
+                <br>
+                <br>
+                Gender:  Male:<input type="radio" name="male" id="male">
+                        Female:<input type="radio" name="male" id="male"><br>
+                        <br>
+                 Address:  <br>
+                 <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+                 
+                 <input type="button" value="Submit " id="btn1">
+
+            </form>
+            
+            
+        
+        </div>
+
+        <div class="main2-col2"> 
+
+             <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9iaWxlJTIwcGhvbmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt=""  style="height:400px  ; width:500px" >
+
+
+
+        </div>
+       
+
+    </div>
+    <div class="footer">
+          <H3>www.Earthcon.com</H3> 
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. facilis praesentium pariatur vero alias eum </div>
+
+    
+</body>
+</html>

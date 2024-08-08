@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap-icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+
+        /* styles.css */
+.image-container {
+    position:relative;
+    width: 300px; /* Adjust the width and height as needed */
+    height: 200px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.icon-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Background color for the icons container */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover img {
+    transform: scale(1.1); /* Increase image size on hover */
+}
+
+.image-container:hover .icon-container {
+    opacity: 1; /* Show icons on hover */
+}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <img src="tomatoes.png" alt="Your Image">
+        <div class="icon-container">
+            <i class="bi bi-0-square-fill"></i>
+
+            
+        </div>
+    </div>
+    
+</body>
+</html>
